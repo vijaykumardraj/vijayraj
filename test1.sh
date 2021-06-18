@@ -20,9 +20,19 @@ if [ $op1 = "add" ]
 then
 n3=$[ $n1 + $n2 ]
 echo $n3
-elif [ $op1 = "minus ]
+elif [ $op1 = "minus" ]
+then
 n3=$[ $n1 - $n2 ]
 echo $n3
+elif [ $op1 = "multiply" ]
+then
+	n3=$[ $n1 * $n2 ]
+echo $n3
+elif [ $op1 = "divide" ]
+then
+	n3=$[ $n1 / $n2 ]
+	echo $n3
+
 else
 echo you entered other operation
 fi
