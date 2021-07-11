@@ -1,4 +1,5 @@
-﻿echo "Status of VM on each nodes"
+﻿#get-vm -ComputerName argdchv13 | Measure-VM
+echo "Status of VM on each nodes"
 $i=1
 while( $i -le 13 )
 {
