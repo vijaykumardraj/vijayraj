@@ -1,4 +1,5 @@
-﻿#
+﻿#Invoke-Command -ComputerName nbalkittb18 {get-vm | measure-vm }
+#get-vm | Enable-VMResourceMetering
 #get-vm -ComputerName argdchv13 | Measure-VM
 echo "Status of VM on each nodes"
 $i=1
