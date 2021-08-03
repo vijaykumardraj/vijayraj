@@ -1,21 +1,21 @@
-﻿#Invoke-Command -ComputerName nbalkittb18 {get-vm | measure-vm }
+﻿#Invoke-Command -ComputerName PTYlkitb28 {get-vm | measure-vm }
 #get-vm | Enable-VMResourceMetering
-#get-vm -ComputerName argdchv13 | Measure-VM
+#get-vm -ComputerName PTYdchv13 | Measure-VM
 echo "Status of VM on each nodes"
 $i=1
 while( $i -le 13 )
 {
     if( $i -le 9 )
     {
-    echo "**argdchv0$i"
+    echo "**PTYdchv0$i"
     echo "***********"
-    get-vm -ComputerName argdchv0$i
+    get-vm -ComputerName PTYdchv0$i
     }
     else
     {
-    echo "**argdchv$i"
+    echo "**PTYdchv$i"
     echo "***********"
-    get-vm -ComputerName argdchv$i
+    get-vm -ComputerName PTYdchv$i
     }
     $i++
 }
