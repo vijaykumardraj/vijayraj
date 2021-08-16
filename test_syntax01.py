@@ -6,6 +6,11 @@ import sys
 import random
 import time
 import tkinter as tk
+#fibonacci 
+k,l = 0, 1
+while k < 10:
+    k,l = l, k + l
+    print(k)
 a=input()
 x = []
 y = []

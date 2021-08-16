@@ -1,0 +1,11 @@
+# crontab -l
+#Backup automation
+#sync daily - user need to configure in thier cron
+0 12  * * * /sync.sh
+#Weekly full Backup x Copies
+0 4  1,8,15,22 * * /weekly.sh
+#Monthly full  Backup y Copies
+0 4  28   * * /monthly.sh
+#Yearly full Backup z Copies
+0 4  31 11 * /yearly.sh
+
