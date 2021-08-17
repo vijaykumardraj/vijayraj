@@ -20,6 +20,6 @@ then
 	/usr/bin/tar cf  /tar_backup/weekly_$var1".tar" --absolute-names /target/
 	tar_count
 else
-echo "false"
+echo "should run from: $host"
 fi
 
