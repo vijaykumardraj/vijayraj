@@ -1,0 +1,941 @@
+Wed Nov 17 13:17:57 2021: Starting Cisco Packet Tracer 8.0.0.0212
+Wed Nov 17 13:17:57 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\engine\ipc\ccep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+Wed Nov 17 13:17:57 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\engine\ipc\ccep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+Wed Nov 17 13:18:04 2021: Script Module starting: 
+Wed Nov 17 13:18:07 2021: CPtmpServer started at port 39000
+Wed Nov 17 13:18:07 2021: Script Module starting: net.netacad.cisco.ActivitySequenceEditor
+Wed Nov 17 13:18:07 2021: Script Module starting: net.netacad.cisco.ActivitySequencer
+Wed Nov 17 13:18:07 2021: Script Module starting: net.netacad.cisco.clearTerminalAgent
+Wed Nov 17 13:18:07 2021: Script Module starting: net.netacad.cisco.Marvel
+Wed Nov 17 13:18:07 2021: Script Module starting: net.netacad.cisco.PcSoftware
+Wed Nov 17 13:18:07 2021: Script Module starting: net.netacad.cisco.PTINTERNAL
+Wed Nov 17 13:18:08 2021: Script Module starting: net.netacad.cisco.resource
+Wed Nov 17 13:18:08 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\engine\ipc\ccep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+Wed Nov 17 13:18:08 2021: CPtmpServer started at port 38000
+Wed Nov 17 13:18:46 2021: Saving options...
+Wed Nov 17 13:18:46 2021: Options saved.
+Wed Nov 17 13:19:00 2021: Opening file: C:/Users/vraj/Cisco Packet Tracer 8.0/saves/test1.pkt
+Wed Nov 17 13:19:01 2021: Changed device name:  to Power Distribution Device0
+Wed Nov 17 13:19:01 2021: Changed device name:  to Multilayer Switch1
+Wed Nov 17 13:19:01 2021: Changed device name:  to 192.168.2.10
+Wed Nov 17 13:19:01 2021: Changed device name:  to 192.168.3.10
+Wed Nov 17 13:19:01 2021: Changed device name:  to EmbeddedServer
+Wed Nov 17 13:19:01 2021: Changed device name:  to 192.168.5.1
+Wed Nov 17 13:19:01 2021: Changed device name:  to Multilayer Switch3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch> enable
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# vlan database
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(vlan)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# router rip
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# router rip
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch> enable
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/2
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/2
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/2
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# end
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# vlan database
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(vlan)# vlan 2 name second
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(vlan)# vlan 3 name VLAN3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(vlan)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/2
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# switchport access vlan 2
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/2
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# switchport access vlan 3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/2
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# end
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# vlan database
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(vlan)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# configure terminal 
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface vlan 2
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# ip add 192.168.2.1 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# no shut
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# do show runn
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# do show runn | section vlan
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# ping 192.168.2.1
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# ping
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# ping 192.168.2.1
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# ping 192.168.2.10
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# ping 192.168.2.10
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# ping 192.168.3.10
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# configure termila
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# enable 
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# configure  terminal 
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface vlan 3
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# ip address 192.168.3.1 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# no shut
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# do ping 192.168.3.1
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# do ip routing
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# ip routing
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# copy running-config startup-config 
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# reboot
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# reboot
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# no domain lookup
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# no ip routing
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# enable 
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch# configure terminal 
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# no ip routing
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# ip routing
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config)# interface fastEthernet 0/24
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# no switchport 
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# ip add 192.168.5.10 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# no shut
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# show ruun
+Wed Nov 17 13:19:01 2021: Multilayer Switch1: Switch(config-if)# do show runn
+Wed Nov 17 13:19:01 2021: Router0: Router> enable
+Wed Nov 17 13:19:01 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface show 
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces status
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces 
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces brief
+Wed Nov 17 13:19:01 2021: Router0: Router# show ?
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces ?
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces 
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces brief
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces 
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces status
+Wed Nov 17 13:19:01 2021: Router0: Router# show interfaces 
+Wed Nov 17 13:19:01 2021: Router0: Router# enable 
+Wed Nov 17 13:19:01 2021: Router0: Router# configure terminal 
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface fastEthernet 2/3
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# ip 192.168.5.1 255.255.255.0
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# ip address 192.168.5.1 255.255.255.0
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# no siwtchport
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# no switchport
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# ip address 192.168.5.1 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch> enable
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch# configure terminal
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# end
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch# vlan database
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(vlan)# vlan 5 name VLAN5
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(vlan)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch# configure terminal
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# switchport access vlan 5
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# no switchport 
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.5.20 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# show vlan brief
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# do show vlan brief
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# vlan 5
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-vlan)# inter vlan 5
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.5.20 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.5.22 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# show run
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# do show running
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# do show inter startus
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# do show inter status
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# switchport access vlan 5
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config)# interface fastEthernet 0/24
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# switchport access vlan 5
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# switchport mode access 
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# no shut
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# vlan 5
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-vlan)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config)# interface vlan 5
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.5.21 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.6.21 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# no shut
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# show vlan
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# do show vlan
+Wed Nov 17 13:19:01 2021: Router0: Router> enable
+Wed Nov 17 13:19:01 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# no switchport
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# ip add 192.168.5.2 255.255.255.0
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch(config)# exit
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch# show running-config 
+Wed Nov 17 13:19:01 2021: Multilayer Switch2: Switch# ip routing
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# end
+Wed Nov 17 13:19:01 2021: Router0: Router# vlan database
+Wed Nov 17 13:19:01 2021: Router0: Router(vlan)# vlan 5 name VLAN5
+Wed Nov 17 13:19:01 2021: Router0: Router(vlan)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:01 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:01 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# no ip address
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# ip address 192.68.6.2 255.255.255.0
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# ip address 192.68.6.2 255.255.255.0
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# ping 192.168.6.2
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.6.1
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.6.1
+Wed Nov 17 13:19:02 2021: Router0: Router# show running-config 
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.6.2
+Wed Nov 17 13:19:02 2021: Router0: Router# ip route
+Wed Nov 17 13:19:02 2021: Router0: Router# en
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal 
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# ip routing
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# ping 192.168.6.2
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# do ping 192.168.6.2
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# do ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# do ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# ip address 192.68.6.1 255.255.255.0
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# ip address 192.68.6.1 255.255.255.0
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# no shut
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# p
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.51
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.6.1
+Wed Nov 17 13:19:02 2021: Router0: Router# show running-config 
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# end
+Wed Nov 17 13:19:02 2021: Router0: Router# vlan database
+Wed Nov 17 13:19:02 2021: Router0: Router(vlan)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# end
+Wed Nov 17 13:19:02 2021: Router0: Router# vlan database
+Wed Nov 17 13:19:02 2021: Router0: Router(vlan)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# show vlan
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# do show vlan
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# show inter summary
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# show interfaces summar
+Wed Nov 17 13:19:02 2021: Router0: Router# show interfaces 
+Wed Nov 17 13:19:02 2021: Router0: Router# show interfaces  brief
+Wed Nov 17 13:19:02 2021: Router0: Router# show interfaces  status
+Wed Nov 17 13:19:02 2021: Router0: Router# show interfaces  status
+Wed Nov 17 13:19:02 2021: Router0: Router# show interfaces  
+Wed Nov 17 13:19:02 2021: Router0: Router# show vlan
+Wed Nov 17 13:19:02 2021: Router0: Router# enable 
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal 
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface fastEthernet 2/4
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# vlan 5
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch> enable
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# end
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# vlan database
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(vlan)# ex
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch> enable
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# show vlan 
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# show running-config 
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# configure terminal 
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# interface  fastEthernet 0/1
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.6.18
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.6.18 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# do show vlan
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# interface fastEthernet 0/24
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# switchport access vlan 1
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# ip add show
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# ip add ressho
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# sho
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# show running-config 
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# ping 192.168.6.21
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# ping 192.168.5.20
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# show running-config 
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# show vlna
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# show vlan
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# enable 
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# configure terminal 
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# no vlan 5
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# vlan 1
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-vlan)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# interface vlan 1
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.6.21 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.5.21 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# no interface vlan 5
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# interface vlan 1
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# ip add 192.168.6.21 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# no shut
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# ip routing
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch# configure terminal 
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# ip  routing
+Wed Nov 17 13:19:02 2021: Multilayer Switch2: Switch(config)# do show runn
+Wed Nov 17 13:19:02 2021: Router0: Router> enable
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch> enable
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/24
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# ip address 192.168.5.10 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/24
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# end
+Wed Nov 17 13:19:02 2021: Router0: Router# vlan database
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# end
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# vlan database
+Wed Nov 17 13:19:02 2021: Router0: Router(vlan)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# end
+Wed Nov 17 13:19:02 2021: Router0: Router# vlan database
+Wed Nov 17 13:19:02 2021: Router0: Router(vlan)# s
+Wed Nov 17 13:19:02 2021: Router0: Router(vlan)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# show vlan
+Wed Nov 17 13:19:02 2021: Router0: Router# no vlan 5
+Wed Nov 17 13:19:02 2021: Router0: Router# enable 
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal 
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# no vlan 5
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# do show vlan
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(vlan)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# router rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.5.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# end
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# ip route 192.168.5.0 255.255.255.0 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# cd ..
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# router rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# no network 192.168.5.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# end
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# ip route 192.168.5.0 255.255.255.0 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# ip route 192.168.5.0 255.255.255.0 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# do ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# do ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# do ping 192.168.5.2
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch> enable
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# interface FastEthernet0/23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-if)# no switchport
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-if)# ip add 192.168.5.12 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface fastEthernet 0/23
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# no switchport 
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# ip add 192.168.5.23 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# ip add 192.168.6.23 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-if)# ip add 192.168.6.22 255.255.255.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# pi
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.6.22
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# router rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.5.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.6.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# interface FastEthernet0/23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# network 192.168.5.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# network 192.168.6.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# show rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# show rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# show  running-config | 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# show running-config 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.6.21
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.6.22
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# ping 192.168.5.6.21
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# ping 192.168.5.6.21
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# ping 192.168.6.22
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: PC1: C:\> route print
+Wed Nov 17 13:19:02 2021: PC1: C:\> route print
+Wed Nov 17 13:19:02 2021: PC1: C:\> route
+Wed Nov 17 13:19:02 2021: PC1: C:\> route
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# route
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# enable
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# route
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# traceroute 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# traceroute -d 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# traceroute d 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.6.22
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# configure terminal 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router rip ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router rip 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip route
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip route
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip  route 192.168.5.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip  route 192.168.5.0 ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip  route ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip default-gateway 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# do ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip default-gateway 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# do ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# ip routing
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# do ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# do ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# do ping 192.168.6.22
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router rip ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# router rip 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# auto-summary 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# network 192.168.5.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# network 192.168.6.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# auto-summary 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# auto-summary 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# redistribute 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# redistribute ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# redistribute rip ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# redistribute rip 
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch> enable 
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# configure terminal 
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# router rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network ?
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.5.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.6.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# do ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# do ping 192.168.6.22
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# auto-summary 
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.6.22
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Router0: Router> en
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal 
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# router rip
+Wed Nov 17 13:19:02 2021: Router0: Router(config-router)# network 192.168.5.0
+Wed Nov 17 13:19:02 2021: Router0: Router(config-router)# network 192.168.6.0
+Wed Nov 17 13:19:02 2021: Router0: Router(config-router)# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Router0: Router(config-router)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# pi
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.5.10
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.5.6.22
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.6.22
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.5.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.1.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.2.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-router)# network 192.168.3.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# network 192.168.1.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# network 192.168.2.0
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# network 192.168.3.0
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.6.23
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.3.1
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.3.10
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.2.10
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.2.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# network 192.168.3.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.3.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.3.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# do ping 192.168.2.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config-router)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# traceroute 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# traceroute 192.168.3.110
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# traceroute 192.168.3.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# traceroute 192.168.2.10
+Wed Nov 17 13:19:02 2021: Multilayer Switch3: Switch# traceroute 192.168.2.1
+Wed Nov 17 13:19:02 2021: Router0: Router# ping 192.168.3.10
+Wed Nov 17 13:19:02 2021: Router0: Router# traceroute 192.168.3.10
+Wed Nov 17 13:19:02 2021: Router0: Router# traceroute 192.168.3.1
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal 
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# ls
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# router ?
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# router 
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/4
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/5
+Wed Nov 17 13:19:02 2021: Router0: Router> enable
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# router rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch> enable
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config-router)# end
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# router rip
+Wed Nov 17 13:19:02 2021: Router0: Router(config-router)# end
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface GigabitEthernet0/1
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/24
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/23
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/22
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/22
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/24
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/23
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# interface FastEthernet0/2
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router# show running-config 
+Wed Nov 17 13:19:02 2021: Router0: Router# configure terminal
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# interface FastEthernet2/3
+Wed Nov 17 13:19:02 2021: Router0: Router(config-if)# exit
+Wed Nov 17 13:19:02 2021: Router0: Router(config)# router rip
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config-if)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# exit
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# show ip arp
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# show ip route
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# show inter status
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# show running-config 
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# ping  192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# no ip route 
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# no ip route 192.168.5.0 255.255.255.0 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch# configure terminal 
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# no ip route 192.168.5.0 255.255.255.0 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Multilayer Switch1: Switch(config)# do ping 192.168.5.1
+Wed Nov 17 13:19:02 2021: Script Module stopping: File
+Wed Nov 17 13:19:02 2021: Script Module starting: File
+Wed Nov 17 13:19:02 2021: File opened successfully.
+Wed Nov 17 13:19:02 2021: Saving options...
+Wed Nov 17 13:19:02 2021: Options saved.
+Wed Nov 17 13:19:19 2021: Multilayer Switch1: Switch> en
+Wed Nov 17 13:19:23 2021: Multilayer Switch1: Switch# show runn
+Wed Nov 17 13:21:42 2021: Multilayer Switch3: Switch> en
+Wed Nov 17 13:21:44 2021: Multilayer Switch3: Switch# show runn
+Wed Nov 17 13:23:49 2021: Changed device name:  to Multilayer Switch0
+Wed Nov 17 13:23:49 2021: Created device: Multilayer Switch0 model: 3560-24PS
+Wed Nov 17 13:24:18 2021: Changed device name:  to PC0
+Wed Nov 17 13:24:18 2021: Created device: PC0 model: PC-PT
+Wed Nov 17 13:24:22 2021: Changed device name:  to PC1
+Wed Nov 17 13:24:22 2021: Created device: PC1 model: PC-PT
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cOpenHand.png, Offset: 0 x 0, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cClosedHand.png, Offset: 0 x 0, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cConnect.svg, Offset: 10 x 10, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cTargetX.svg, Offset: 16 x 16, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cAddDevice.svg, Offset: 16 x 16, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cInspect.svg, Offset: 16 x 16, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cAddPacket.svg, Offset: 10 x 10, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cResize.svg, Offset: 16 x 16, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cPencil.svg, Offset: 16 x 16, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:14 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\gui\common\cursorbank.cpp(52):INFO  - Cursor: ../art/Cursors/cDrawingcross.svg, Offset: 16 x 16, Size: 32 x 32, DPR: 1
+Wed Nov 17 13:26:26 2021: Link created: PC0 FastEthernet0 to Multilayer Switch0 FastEthernet0/1, 8100
+Wed Nov 17 13:26:38 2021: Link created: PC1 FastEthernet0 to Multilayer Switch0 FastEthernet0/2, 8100
+Wed Nov 17 13:27:50 2021: Multilayer Switch0: Switch> en
+Wed Nov 17 13:27:59 2021: Multilayer Switch0: Switch# show interface
+Wed Nov 17 13:28:06 2021: Multilayer Switch0: Switch# show int bri
+Wed Nov 17 13:28:10 2021: Multilayer Switch0: Switch# show int brei
+Wed Nov 17 13:28:24 2021: Multilayer Switch0: Switch# show inte status
+Wed Nov 17 13:28:30 2021: Multilayer Switch0: Switch# show ip int bri
+Wed Nov 17 13:28:43 2021: Multilayer Switch0: Switch# show int vlan 1
+Wed Nov 17 13:29:00 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 13:29:04 2021: Multilayer Switch0: Switch(config)# interface fastEthernet 1
+Wed Nov 17 13:29:23 2021: Multilayer Switch0: Switch(config)# do show ip int bri
+Wed Nov 17 13:29:37 2021: Multilayer Switch0: Switch(config)# interface fastEthernet 0/1
+Wed Nov 17 13:29:57 2021: Multilayer Switch0: Switch(config-if)# exit
+Wed Nov 17 13:30:07 2021: Multilayer Switch0: Switch(config)# interface vlan 1
+Wed Nov 17 13:30:22 2021: Multilayer Switch0: Switch(config-if)# ip add 192.168.1.1 255.255.255.0
+Wed Nov 17 13:30:25 2021: Multilayer Switch0: Switch(config-if)# no shut
+Wed Nov 17 13:30:35 2021: Multilayer Switch0: Switch(config-if)# exit
+Wed Nov 17 13:30:55 2021: Multilayer Switch0: Switch(config)# interface vlan 2
+Wed Nov 17 13:31:07 2021: Multilayer Switch0: Switch(config-if)# ip add 192.168.2.1 255.255.255.0
+Wed Nov 17 13:31:10 2021: Multilayer Switch0: Switch(config-if)# no shut
+Wed Nov 17 13:31:44 2021: Multilayer Switch0: Switch(config-if)# show vlan
+Wed Nov 17 13:31:46 2021: Multilayer Switch0: Switch(config-if)# exit
+Wed Nov 17 13:31:51 2021: Multilayer Switch0: Switch(config)# show vland
+Wed Nov 17 13:31:54 2021: Multilayer Switch0: Switch(config)# show vlan
+Wed Nov 17 13:31:57 2021: Multilayer Switch0: Switch(config)# vlan show
+Wed Nov 17 13:32:00 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 13:32:04 2021: Multilayer Switch0: Switch# show vlan
+Wed Nov 17 13:32:24 2021: Multilayer Switch0: Switch# show ip int bri
+Wed Nov 17 13:32:41 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 13:33:07 2021: Multilayer Switch0: Switch(config)# interface fastEthernet 0/2
+Wed Nov 17 13:33:16 2021: Multilayer Switch0: Switch(config-if)# vlan 2
+Wed Nov 17 13:33:29 2021: Multilayer Switch0: Switch(config-vlan)# no shut
+Wed Nov 17 13:33:33 2021: Multilayer Switch0: Switch(config-vlan)# exit
+Wed Nov 17 13:33:34 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 13:33:42 2021: Multilayer Switch0: Switch# show vlan
+Wed Nov 17 13:33:54 2021: Multilayer Switch0: Switch# show ip int bri
+Wed Nov 17 13:34:06 2021: Multilayer Switch0: Switch# show inter status
+Wed Nov 17 13:34:24 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 13:34:26 2021: Multilayer Switch0: Switch(config)# vlan 2
+Wed Nov 17 13:34:44 2021: Multilayer Switch0: Switch(config-vlan)# exit
+Wed Nov 17 13:34:50 2021: Multilayer Switch0: Switch(config)# interface fastEthernet 0/2
+Wed Nov 17 13:34:53 2021: Multilayer Switch0: Switch(config-if)# vlan 2
+Wed Nov 17 13:34:59 2021: Multilayer Switch0: Switch(config-vlan)# no shut
+Wed Nov 17 13:35:10 2021: Multilayer Switch0: Switch(config-vlan)# no shut
+Wed Nov 17 13:35:14 2021: Multilayer Switch0: Switch(config-vlan)# exit
+Wed Nov 17 13:35:16 2021: Multilayer Switch0: Switch(config)# no shut
+Wed Nov 17 13:35:28 2021: Multilayer Switch1: Switch> en
+Wed Nov 17 13:35:31 2021: Multilayer Switch1: Switch# show runn
+Wed Nov 17 13:36:05 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 13:36:10 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 13:36:16 2021: Multilayer Switch0: Switch(config)# inter fastEthernet 0/2
+Wed Nov 17 13:36:24 2021: Multilayer Switch0: Switch(config-if)# switchport access vlan 2
+Wed Nov 17 13:36:51 2021: Multilayer Switch0: Switch(config-if)# do show ip int bri
+Wed Nov 17 13:37:15 2021: Multilayer Switch0: Switch(config-if)# ping 192.168.1.10
+Wed Nov 17 13:37:20 2021: Multilayer Switch0: Switch(config-if)# exit
+Wed Nov 17 13:37:22 2021: Multilayer Switch0: Switch(config)# ping
+Wed Nov 17 13:37:31 2021: Multilayer Switch0: Switch(config)# ping 192.168.1.10
+Wed Nov 17 13:37:36 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 13:37:42 2021: Multilayer Switch0: Switch# ping 192.168.1.1
+Wed Nov 17 13:37:46 2021: Multilayer Switch0: Switch# ping 192.168.2.1
+Wed Nov 17 13:37:50 2021: Multilayer Switch0: Switch# ping 192.168.1.10
+Wed Nov 17 13:37:56 2021: Multilayer Switch0: Switch# ping 192.168.2.10
+Wed Nov 17 13:38:50 2021: Multilayer Switch0: Switch# ip route
+Wed Nov 17 13:39:13 2021: Multilayer Switch0: Switch# ip route
+Wed Nov 17 13:39:21 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 13:39:23 2021: Multilayer Switch0: Switch(config)# ip route
+Wed Nov 17 13:39:37 2021: Multilayer Switch0: Switch(config)# ip route ?
+Wed Nov 17 13:39:54 2021: Multilayer Switch0: Switch(config)# route rip
+Wed Nov 17 13:40:13 2021: Multilayer Switch1: Switch# show runn
+Wed Nov 17 13:43:52 2021: Multilayer Switch0: Switch(config)# ip route
+Wed Nov 17 13:43:56 2021: Multilayer Switch0: Switch(config)# ip route ?
+Wed Nov 17 13:44:06 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0
+Wed Nov 17 13:44:13 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 ?
+Wed Nov 17 13:44:21 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0
+Wed Nov 17 13:44:25 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 ?
+Wed Nov 17 13:44:46 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 192.168.1.1
+Wed Nov 17 13:44:51 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 192.168.1.1 ?
+Wed Nov 17 13:44:59 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 192.168.1.1 1
+Wed Nov 17 13:45:23 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.1
+Wed Nov 17 13:45:33 2021: Multilayer Switch0: Switch(config)# ip route 0.0.0.0 0.0.0.0 
+Wed Nov 17 13:45:41 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 13:45:45 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 13:45:51 2021: Multilayer Switch0: Switch(config)# ip route
+Wed Nov 17 13:46:04 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 ?
+Wed Nov 17 13:46:11 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 ?
+Wed Nov 17 13:46:25 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 1
+Wed Nov 17 13:46:29 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 ?
+Wed Nov 17 13:46:43 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 192.168.1.1 ?
+Wed Nov 17 13:46:49 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 192.168.1.1 1 ?
+Wed Nov 17 13:46:51 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 192.168.1.1 1 
+Wed Nov 17 13:47:00 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 192.168.1.1 2
+Wed Nov 17 13:48:35 2021: Multilayer Switch0: Switch(config)# ip route 192.168.1.0 255.255.255.0 192.168.1.254
+Wed Nov 17 13:50:53 2021: Multilayer Switch0: Switch(config)# ip routing
+Wed Nov 17 15:58:33 2021: Changed device name:  to Router0
+Wed Nov 17 15:58:33 2021: Created device: Router0 model: ISR4331
+Wed Nov 17 15:58:46 2021: Changed device name:  to Multilayer Switch2
+Wed Nov 17 15:58:46 2021: Created device: Multilayer Switch2 model: 3650-24PS
+Wed Nov 17 15:59:18 2021: Link created: Multilayer Switch2 GigabitEthernet1/0/1 to Multilayer Switch0 GigabitEthernet0/1, 8100
+Wed Nov 17 15:59:40 2021: Link created: Router0 GigabitEthernet0/0/0 to Multilayer Switch0 GigabitEthernet0/2, 8100
+Wed Nov 17 15:59:55 2021: Changed device name:  to PC2
+Wed Nov 17 15:59:55 2021: Created device: PC2 model: PC-PT
+Wed Nov 17 16:00:13 2021: Link created: PC2 FastEthernet0 to Multilayer Switch2 GigabitEthernet1/0/2, 8100
+Wed Nov 17 16:00:31 2021: Multilayer Switch0: Switch> en
+Wed Nov 17 16:00:36 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 16:00:48 2021: Multilayer Switch0: Switch(config)# interface gigabitEthernet 
+Wed Nov 17 16:00:53 2021: Multilayer Switch0: Switch(config)# show int status
+Wed Nov 17 16:00:58 2021: Multilayer Switch0: Switch(config)# do show inter status
+Wed Nov 17 16:01:19 2021: Multilayer Switch0: Switch(config)# interface gigabitEthernet 0/1
+Wed Nov 17 16:01:25 2021: Multilayer Switch0: Switch(config-if)# no switchport port
+Wed Nov 17 16:01:29 2021: Multilayer Switch0: Switch(config-if)# no switchport 
+Wed Nov 17 16:01:58 2021: Multilayer Switch0: Switch(config-if)# ip add 192.168.3.5 255.255.255.0
+Wed Nov 17 16:02:05 2021: Multilayer Switch0: Switch(config-if)# no shut
+Wed Nov 17 16:03:45 2021: Link deleted: Multilayer Switch2 GigabitEthernet1/0/1 to Multilayer Switch0 GigabitEthernet0/1, 8100
+Wed Nov 17 16:03:45 2021: Link deleted: PC2 FastEthernet0 to Multilayer Switch2 GigabitEthernet1/0/2, 8100
+Wed Nov 17 16:03:45 2021: Removed device: Multilayer Switch2
+Wed Nov 17 16:03:59 2021: Changed device name:  to Multilayer Switch4
+Wed Nov 17 16:03:59 2021: Created device: Multilayer Switch4 model: 3650-24PS
+Wed Nov 17 16:04:14 2021: Link created: Multilayer Switch4 GigabitEthernet1/0/1 to Multilayer Switch0 GigabitEthernet0/1, 8100
+Wed Nov 17 16:04:27 2021: Link deleted: Multilayer Switch4 GigabitEthernet1/0/1 to Multilayer Switch0 GigabitEthernet0/1, 8100
+Wed Nov 17 16:04:27 2021: Removed device: Multilayer Switch4
+Wed Nov 17 16:04:41 2021: Changed device name:  to Multilayer Switch5
+Wed Nov 17 16:04:41 2021: Created device: Multilayer Switch5 model: 3560-24PS
+Wed Nov 17 16:05:02 2021: Link created: Multilayer Switch5 GigabitEthernet0/1 to Multilayer Switch0 GigabitEthernet0/1, 8100
+Wed Nov 17 16:05:12 2021: Link created: PC2 FastEthernet0 to Multilayer Switch5 FastEthernet0/1, 8100
+Wed Nov 17 16:06:25 2021: Multilayer Switch5: Switch> en
+Wed Nov 17 16:06:30 2021: Multilayer Switch5: Switch# show ip in bri
+Wed Nov 17 16:06:35 2021: Multilayer Switch5: Switch# show ip int bri
+Wed Nov 17 16:07:06 2021: Multilayer Switch5: Switch# configure terminal 
+Wed Nov 17 16:07:14 2021: Multilayer Switch5: Switch(config)# interface gigabitEthernet 0/1
+Wed Nov 17 16:07:18 2021: Multilayer Switch5: Switch(config-if)# no switchport
+Wed Nov 17 16:07:33 2021: Multilayer Switch5: Switch(config-if)# ip add 192.168.3.6 255.255.255.0
+Wed Nov 17 16:07:39 2021: Multilayer Switch5: Switch(config-if)# no shut 
+Wed Nov 17 16:08:34 2021: Multilayer Switch5: Switch(config-if)# ping 192.168.3.5
+Wed Nov 17 16:08:36 2021: Multilayer Switch5: Switch(config-if)# exit
+Wed Nov 17 16:08:38 2021: Multilayer Switch5: Switch(config)# exit
+Wed Nov 17 16:08:39 2021: Multilayer Switch5: Switch# p
+Wed Nov 17 16:08:47 2021: Multilayer Switch5: Switch# ping 192.168.3.5
+Wed Nov 17 16:08:57 2021: Multilayer Switch5: Switch# ping 192.168.2.1
+Wed Nov 17 16:09:12 2021: Multilayer Switch5: Switch# ping 192.168.2.1
+Wed Nov 17 16:09:41 2021: Multilayer Switch5: Switch# configure terminal 
+Wed Nov 17 16:09:55 2021: Multilayer Switch5: Switch(config)# vlan 3
+Wed Nov 17 16:10:23 2021: Multilayer Switch5: Switch(config-vlan)# ip add 192.168.3.1 255.255.255.0
+Wed Nov 17 16:10:33 2021: Multilayer Switch5: Switch(config-vlan)# exit
+Wed Nov 17 16:10:40 2021: Multilayer Switch5: Switch(config)# interface vlan 3
+Wed Nov 17 16:10:54 2021: Multilayer Switch5: Switch(config-if)# ip add 192.168.3.1 255.255.255.0
+Wed Nov 17 16:11:11 2021: Multilayer Switch5: Switch(config-if)# ip add 192.168.4.1 255.255.255.0
+Wed Nov 17 16:11:19 2021: Multilayer Switch5: Switch(config-if)# no shut
+Wed Nov 17 16:12:14 2021: Multilayer Switch5: Switch(config-if)# exit
+Wed Nov 17 16:12:19 2021: Multilayer Switch5: Switch(config)# interface fastEthernet 0/1
+Wed Nov 17 16:12:33 2021: Multilayer Switch5: Switch(config-if)# switchport access vlan 3
+Wed Nov 17 16:12:55 2021: Multilayer Switch5: Switch(config-if)# no shut
+Wed Nov 17 16:12:56 2021: Multilayer Switch5: Switch(config-if)# exit
+Wed Nov 17 16:12:58 2021: Multilayer Switch5: Switch(config)# exit
+Wed Nov 17 16:13:00 2021: Multilayer Switch5: Switch# ping 
+Wed Nov 17 16:13:09 2021: Multilayer Switch5: Switch# ping 192.168.4.1
+Wed Nov 17 16:13:20 2021: Multilayer Switch5: Switch# ping 192.168.3.6
+Wed Nov 17 16:13:25 2021: Multilayer Switch5: Switch# ping 192.168.3.5
+Wed Nov 17 16:14:09 2021: Multilayer Switch5: Switch# configure terminal 
+Wed Nov 17 16:14:12 2021: Multilayer Switch5: Switch(config)# ip routing
+Wed Nov 17 16:15:06 2021: Multilayer Switch5: Switch(config)# rip >?
+Wed Nov 17 16:15:07 2021: Multilayer Switch5: Switch(config)# rip ?
+Wed Nov 17 16:15:09 2021: Multilayer Switch5: Switch(config)# exit
+Wed Nov 17 16:15:16 2021: Multilayer Switch5: Switch# configure 
+Wed Nov 17 16:15:24 2021: Multilayer Switch5: Switch(config)# router rip 
+Wed Nov 17 16:15:36 2021: Multilayer Switch5: Switch(config-router)# network 192.168.1.0
+Wed Nov 17 16:15:40 2021: Multilayer Switch5: Switch(config-router)# network 192.168.2.0
+Wed Nov 17 16:15:43 2021: Multilayer Switch5: Switch(config-router)# network 192.168.3.0
+Wed Nov 17 16:15:45 2021: Multilayer Switch5: Switch(config-router)# network 192.168.4.0
+Wed Nov 17 16:15:50 2021: Multilayer Switch5: Switch(config-router)# no shut
+Wed Nov 17 16:15:54 2021: Multilayer Switch5: Switch(config-router)# exit
+Wed Nov 17 16:15:55 2021: Multilayer Switch5: Switch(config)# exit
+Wed Nov 17 16:15:58 2021: Multilayer Switch5: Switch# show running-config 
+Wed Nov 17 16:16:27 2021: Multilayer Switch0: Switch> en
+Wed Nov 17 16:16:29 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 16:16:32 2021: Multilayer Switch0: Switch(config)# router rip
+Wed Nov 17 16:16:41 2021: Multilayer Switch0: Switch(config-router)# network 192.168.1.0
+Wed Nov 17 16:16:43 2021: Multilayer Switch0: Switch(config-router)# network 192.168.2.0
+Wed Nov 17 16:16:46 2021: Multilayer Switch0: Switch(config-router)# network 192.168.3.0
+Wed Nov 17 16:16:50 2021: Multilayer Switch0: Switch(config-router)# network 192.168.4.0
+Wed Nov 17 16:16:55 2021: Multilayer Switch0: Switch(config-router)# exit
+Wed Nov 17 16:16:58 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 16:16:59 2021: Multilayer Switch0: Switch# p
+Wed Nov 17 16:17:08 2021: Multilayer Switch0: Switch# p 192.168.1.10
+Wed Nov 17 16:17:14 2021: Multilayer Switch0: Switch# p 192.168.3.6
+Wed Nov 17 16:17:17 2021: Multilayer Switch0: Switch# p 192.168.3.5
+Wed Nov 17 16:17:22 2021: Multilayer Switch0: Switch# p 192.168.4.1
+Wed Nov 17 16:17:25 2021: Multilayer Switch0: Switch# p 192.168.4.10
+Wed Nov 17 16:18:00 2021: Multilayer Switch0: Switch# show ip int bri
+Wed Nov 17 16:18:13 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 16:18:30 2021: Multilayer Switch0: Switch(config)# interface gigabitEthernet 0/2
+Wed Nov 17 16:18:33 2021: Multilayer Switch0: Switch(config-if)# no switchport
+Wed Nov 17 16:18:49 2021: Multilayer Switch0: Switch(config-if)# ip add 192.168.8.5 255.255.255.0
+Wed Nov 17 16:18:55 2021: Multilayer Switch0: Switch(config-if)# no shut
+Wed Nov 17 16:18:57 2021: Multilayer Switch0: Switch(config-if)# exit
+Wed Nov 17 16:19:05 2021: Multilayer Switch0: Switch(config)# router rip 192.168.8.0
+Wed Nov 17 16:19:09 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 16:19:13 2021: Multilayer Switch0: Switch# router rip
+Wed Nov 17 16:19:17 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 16:19:18 2021: Multilayer Switch0: Switch(config)# router
+Wed Nov 17 16:19:21 2021: Multilayer Switch0: Switch(config)# rip
+Wed Nov 17 16:19:26 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 16:19:35 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 16:19:38 2021: Multilayer Switch0: Switch(config)# rip router 
+Wed Nov 17 16:19:57 2021: Multilayer Switch0: Switch(config)# router rip
+Wed Nov 17 16:20:05 2021: Multilayer Switch0: Switch(config-router)# network 192.168.8.0
+Wed Nov 17 16:20:13 2021: Multilayer Switch0: Switch(config-router)# network 192.168.9.0
+Wed Nov 17 16:20:27 2021: Router0: Router> en
+Wed Nov 17 16:20:36 2021: Router0: Router# show ip int brie
+Wed Nov 17 16:21:10 2021: Router0: Router# configure terminal 
+Wed Nov 17 16:21:22 2021: Router0: Router(config)# interface gigabitEthernet 0/0/0
+Wed Nov 17 16:21:25 2021: Router0: Router(config-if)# no switchport
+Wed Nov 17 16:21:45 2021: Router0: Router(config-if)# ip add 192.168.8.6 255.255.255.0
+Wed Nov 17 16:21:48 2021: Router0: Router(config-if)# no shut
+Wed Nov 17 16:22:08 2021: Changed device name:  to Multilayer Switch6
+Wed Nov 17 16:22:08 2021: Created device: Multilayer Switch6 model: 3650-24PS
+Wed Nov 17 16:22:14 2021: Changed device name:  to PC3
+Wed Nov 17 16:22:14 2021: Created device: PC3 model: PC-PT
+Wed Nov 17 16:23:07 2021: Removed device: Multilayer Switch6
+Wed Nov 17 16:23:20 2021: Changed device name:  to Multilayer Switch7
+Wed Nov 17 16:23:20 2021: Created device: Multilayer Switch7 model: 3560-24PS
+Wed Nov 17 16:23:34 2021: Link created: Multilayer Switch7 GigabitEthernet0/1 to Router0 GigabitEthernet0/0/1, 8100
+Wed Nov 17 16:23:48 2021: Router0: Router(config-if)# exit
+Wed Nov 17 16:23:54 2021: Router0: Router(config)# interface gigabitEthernet 0/0/1
+Wed Nov 17 16:24:13 2021: Router0: Router(config-if)# ip add 192.168.7.6 255.255.255.0
+Wed Nov 17 16:24:17 2021: Router0: Router(config-if)# no shut
+Wed Nov 17 16:24:35 2021: Multilayer Switch7: Switch> en
+Wed Nov 17 16:24:39 2021: Multilayer Switch7: Switch# configure terminal 
+Wed Nov 17 16:24:46 2021: Multilayer Switch7: Switch(config)# interface gigabitEthernet 0/1
+Wed Nov 17 16:24:52 2021: Multilayer Switch7: Switch(config-if)# no switchport
+Wed Nov 17 16:25:08 2021: Multilayer Switch7: Switch(config-if)# ip add 192.168.7.7 255.255.255.0
+Wed Nov 17 16:25:10 2021: Multilayer Switch7: Switch(config-if)# no shut
+Wed Nov 17 16:25:16 2021: Multilayer Switch7: Switch(config-if)# exit
+Wed Nov 17 16:25:31 2021: Multilayer Switch7: Switch(config)# do ping 192.168.7.6
+Wed Nov 17 16:34:48 2021: Multilayer Switch7: Switch(config)# do ping 192.168.8.6
+Wed Nov 17 16:35:01 2021: Multilayer Switch7: Switch(config)# do ping 192.168.8.5
+Wed Nov 17 16:35:25 2021: Multilayer Switch7: Switch(config)# route rip
+Wed Nov 17 16:35:32 2021: Multilayer Switch7: Switch(config)# router rip
+Wed Nov 17 16:35:40 2021: Multilayer Switch7: Switch(config)# ip routing
+Wed Nov 17 16:35:46 2021: Multilayer Switch7: Switch(config)# router rip
+Wed Nov 17 16:35:49 2021: Multilayer Switch7: Switch(config-router)# exit
+Wed Nov 17 16:35:54 2021: Multilayer Switch7: Switch(config)# exit
+Wed Nov 17 16:36:01 2021: Multilayer Switch7: Switch# do ping 192.168.8.6
+Wed Nov 17 16:36:06 2021: Multilayer Switch7: Switch# ping
+Wed Nov 17 16:36:17 2021: Multilayer Switch7: Switch# ping 192.168.8.6
+Wed Nov 17 16:36:38 2021: Multilayer Switch7: Switch# ping 192.168.7.6
+Wed Nov 17 16:36:41 2021: Multilayer Switch7: Switch# ping 192.168.7.5
+Wed Nov 17 16:37:08 2021: Multilayer Switch7: Switch# ping 192.168.7.7
+Wed Nov 17 16:37:11 2021: Multilayer Switch7: Switch# ping 192.168.7.6
+Wed Nov 17 16:37:25 2021: Router0: Router> en
+Wed Nov 17 16:37:36 2021: Router0: Router# ping 192.168.7.7
+Wed Nov 17 16:37:41 2021: Router0: Router# ping 192.168.8.5
+Wed Nov 17 16:37:45 2021: Router0: Router# ping 192.168.8.5
+Wed Nov 17 16:37:47 2021: Router0: Router# ping 192.168.8.6
+Wed Nov 17 16:37:56 2021: Multilayer Switch7: Switch# ping 192.168.8.6
+Wed Nov 17 16:38:17 2021: Multilayer Switch7: Switch# configure terminal 
+Wed Nov 17 16:38:21 2021: Multilayer Switch7: Switch(config)# router rip
+Wed Nov 17 16:38:27 2021: Multilayer Switch7: Switch(config-router)# network 192.168.7.0
+Wed Nov 17 16:38:31 2021: Multilayer Switch7: Switch(config-router)# network 192.168.8.0
+Wed Nov 17 16:38:35 2021: Multilayer Switch7: Switch(config-router)# network 192.168.6.0
+Wed Nov 17 16:38:51 2021: Multilayer Switch7: Switch(config-router)# do ping 182.168.7.6
+Wed Nov 17 16:39:07 2021: Multilayer Switch7: Switch(config-router)# do ping 192.168.7.6
+Wed Nov 17 16:39:12 2021: Multilayer Switch7: Switch(config-router)# do ping 192.168.8.6
+Wed Nov 17 16:39:30 2021: Router0: Router# configure terminal 
+Wed Nov 17 16:39:33 2021: Router0: Router(config)# router rip
+Wed Nov 17 16:39:42 2021: Router0: Router(config-router)# network 192.168.8.0
+Wed Nov 17 16:39:45 2021: Router0: Router(config-router)# network 192.168.7.0
+Wed Nov 17 16:39:51 2021: Multilayer Switch7: Switch(config-router)# do ping 192.168.8.6
+Wed Nov 17 16:40:35 2021: Link created: PC3 FastEthernet0 to Multilayer Switch7 FastEthernet0/1, 8100
+Wed Nov 17 16:41:10 2021: Multilayer Switch7: Switch(config-router)# exit
+Wed Nov 17 16:41:27 2021: Multilayer Switch7: Switch(config)# interface vlan 6
+Wed Nov 17 16:41:40 2021: Multilayer Switch7: Switch(config-if)# ip add 192.168.6.1 255.255.255.0
+Wed Nov 17 16:41:43 2021: Multilayer Switch7: Switch(config-if)# no shut
+Wed Nov 17 16:42:01 2021: Multilayer Switch7: Switch(config-if)# do ping 192.168.6.10
+Wed Nov 17 16:42:26 2021: Multilayer Switch7: Switch(config-if)# do show ip int bri
+Wed Nov 17 16:42:44 2021: Multilayer Switch7: Switch(config-if)# exit
+Wed Nov 17 16:42:52 2021: Multilayer Switch7: Switch(config)# interface fastEthernet 0/1
+Wed Nov 17 16:42:55 2021: Multilayer Switch7: Switch(config-if)# no shut
+Wed Nov 17 16:43:04 2021: Multilayer Switch7: Switch(config-if)# switchport access vlan 6
+Wed Nov 17 16:43:13 2021: Multilayer Switch7: Switch(config-if)# do ping 192.168.6.10
+Wed Nov 17 16:43:37 2021: Multilayer Switch7: Switch(config-if)# do ping 192.168.6.10
+Wed Nov 17 16:44:51 2021: Multilayer Switch0: Switch> en
+Wed Nov 17 16:44:53 2021: Multilayer Switch0: Switch# show running-config 
+Wed Nov 17 16:45:09 2021: Multilayer Switch5: Switch> en
+Wed Nov 17 16:45:13 2021: Multilayer Switch5: Switch# configure terminal 
+Wed Nov 17 16:45:15 2021: Multilayer Switch5: Switch(config)# router rip
+Wed Nov 17 16:45:20 2021: Multilayer Switch5: Switch(config-router)# network 192.168.8.0
+Wed Nov 17 16:45:24 2021: Multilayer Switch5: Switch(config-router)# network 192.168.7.0
+Wed Nov 17 16:46:18 2021: Multilayer Switch5: Switch(config-router)# exit
+Wed Nov 17 16:46:25 2021: Multilayer Switch5: Switch(config)# exit
+Wed Nov 17 16:46:26 2021: Multilayer Switch5: Switch# s
+Wed Nov 17 16:46:28 2021: Multilayer Switch5: Switch# show running-config 
+Wed Nov 17 16:47:06 2021: Multilayer Switch7: Switch(config-if)# exit
+Wed Nov 17 16:47:08 2021: Multilayer Switch7: Switch(config)# exit
+Wed Nov 17 16:47:10 2021: Multilayer Switch7: Switch# show running-config 
+Wed Nov 17 16:47:28 2021: Multilayer Switch7: Switch# configure terminal 
+Wed Nov 17 16:47:53 2021: Multilayer Switch7: Switch(config)# router rip
+Wed Nov 17 16:48:02 2021: Multilayer Switch7: Switch(config-router)# network 192.168.1.0
+Wed Nov 17 16:48:04 2021: Multilayer Switch7: Switch(config-router)# network 192.168.2.0
+Wed Nov 17 16:48:06 2021: Multilayer Switch7: Switch(config-router)# network 192.168.3.0
+Wed Nov 17 16:48:08 2021: Multilayer Switch7: Switch(config-router)# network 192.168.4.0
+Wed Nov 17 16:48:26 2021: Multilayer Switch7: Switch(config-router)# exit
+Wed Nov 17 16:48:27 2021: Multilayer Switch7: Switch(config)# exit
+Wed Nov 17 16:48:30 2021: Multilayer Switch7: Switch# configure 
+Wed Nov 17 16:48:39 2021: Multilayer Switch7: Switch(config)# ip routing
+Wed Nov 17 16:48:56 2021: Multilayer Switch7: Switch(config)# do ping 192.168.3.10
+Wed Nov 17 16:49:29 2021: PC3: C:\> ip add show
+Wed Nov 17 16:50:01 2021: Multilayer Switch0: Switch# configure terminal 
+Wed Nov 17 16:50:04 2021: Multilayer Switch0: Switch(config)# router rip
+Wed Nov 17 16:50:12 2021: Multilayer Switch0: Switch(config-router)# network 192.168.6.0
+Wed Nov 17 16:50:19 2021: Multilayer Switch0: Switch(config-router)# ping 192.168.6.10
+Wed Nov 17 16:50:23 2021: Multilayer Switch0: Switch(config-router)# exit
+Wed Nov 17 16:50:24 2021: Multilayer Switch0: Switch(config)# exit
+Wed Nov 17 16:50:30 2021: Multilayer Switch0: Switch# ping 192.168.6.10
+Wed Nov 17 16:50:42 2021: Multilayer Switch0: Switch# ping 192.168.3.10
+Wed Nov 17 16:52:36 2021: Saving to file: C:/Users/vraj/Cisco Packet Tracer 8.0/saves/test1.pkt
+Wed Nov 17 16:52:36 2021: Saving options...
+Wed Nov 17 16:52:36 2021: Options saved.
+Wed Nov 17 16:52:36 2021: File saved successfully.
+Wed Nov 17 16:52:47 2021: Saving to file: C:/Users/vraj/Cisco Packet Tracer 8.0/saves/test1.pkt
+Wed Nov 17 16:52:47 2021: Saving options...
+Wed Nov 17 16:52:47 2021: Options saved.
+Wed Nov 17 16:52:47 2021: File saved successfully.
